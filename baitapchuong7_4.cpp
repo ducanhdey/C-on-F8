@@ -8,9 +8,7 @@ int main()
    int *numbers = new int[n];
    cout << endl << "Nhap mang :" ;
     for (int i = 0;i< n ;i++)
-    {
-        
-        
+    {    
             cin>> numbers[i] ;
     }
     
@@ -21,20 +19,14 @@ int main()
             if(numbers[j] > numbers[j + 1])
             {   int tmp = numbers[j];
                 numbers[j] = numbers[j + 1];
-                numbers[j + 1] = tmp;
-         
+                numbers[j + 1] = tmp;       
             }
-
         }
     }
     cout << "mang sau khi sap xep"  <<endl;
  for (int i = 0;i< n ;i++)
-    {
-        
-        
-            cout<< numbers[i]<<" " ;
-
-        
+    {      
+            cout<< numbers[i]<<" " ;   
     }
    
    cout << endl;
