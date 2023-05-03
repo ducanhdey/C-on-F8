@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 
-{
+{   
     int n  ;
    cout << "Nhap n : "; cin >> n ;
    int *numbers = new int[n];
@@ -28,6 +28,7 @@ int main()
 
         }
     }
+    cout << "mang sau khi sap xep" ;
  for (int i = 0;i< n ;i++)
     {
         
