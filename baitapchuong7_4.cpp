@@ -12,9 +12,8 @@ int main()
         
         
             cin>> numbers[i] ;
-
-        
     }
+    
     for (int i = n - 1;i> 0;i--)
     {
         for (int j = 0 ;j<i;j++)
@@ -28,7 +27,7 @@ int main()
 
         }
     }
-    cout << "mang sau khi sap xep" ;
+    cout << "mang sau khi sap xep"  <<endl;
  for (int i = 0;i< n ;i++)
     {
         
