@@ -1,8 +1,5 @@
+
 {
-    "C_Cpp.errorSquiggles": "disabled",
-    "files.associations": {
-        "ostream": "cpp",
-        "iostream": "cpp"
-    },
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
